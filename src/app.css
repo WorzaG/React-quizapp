@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+html,
+body {
+  /*background-color: rgb(96, 158, 250);*/
+  background-color: #eee;
+  color: #383838;
+}
+/*rgb(96, 158, 250) açık mavi*/
+/* rgba(96, 158, 250, 0.534) beyaz mavi*/
+.App {
+  width: auto;
+  height: 100%;
+}
+.Content {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+.Info {
+  padding: 5px;
+}
+.Info h2,
+h3 {
+  margin: 10px 0;
+}
+.Card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ddd;
+  width: 545px;
+  height: 245px;
+  box-shadow: 0px 5px 5px 2px rgb(0 0 0 / 10%);
+}
+.Card-content {
+  display: flex;
+  padding: 20px 10px;
+  justify-content: space-between;
+}
+.Card-content ul {
+  padding: 10px;
+}
+.Card-content ul li {
+  margin: 5px 0;
+  width: 200px;
+  padding: 8px 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  background: #383838;
+  color: #ffff;
+}
+.Card-content ul li:hover {
+  background-color: rgb(197, 197, 197);
+  color: #383838;
+  transition: all 0.3s ease-in-out;
+}
+.showScore {
+  width: auto;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #383838;
+}
